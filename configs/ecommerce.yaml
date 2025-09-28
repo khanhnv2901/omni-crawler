@@ -1,0 +1,12 @@
+name: "ecommerce"
+allowed_domains:
+  - "www.scrapingcourse.com"
+start_url: "https://www.scrapingcourse.com/ecommerce"
+selectors:
+  product_item: "li.product"
+  url: "a"
+  image: "img"
+  name: ".prouduct-name"
+  price: ".price"
+output_format: "csv"
+output_file: "products.csv"
